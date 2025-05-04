@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap UI Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container py-5">
+    <h1 class="text-center mb-5">🎨 UI Gallery</h1>
+
+    <!-- Buttons -->
+    <div class="section">
+      <div class="d-flex flex-wrap gap-2">
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-secondary">Secondary</button>
+        <button class="btn btn-success">Success</button>
+        <button class="btn btn-danger">Danger</button>
+        <button class="btn btn-warning">Warning</button>
+        <button class="btn btn-info">Info</button>
+        <button class="btn btn-light">Light</button>
+        <button class="btn btn-dark">Dark</button>
+        <button class="btn btn-outline-primary">Outline</button>
+      </div>
+    </div>
+
+    <!-- Dropdown -->
+    <div class="section my-4">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown Menu
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Option 1</a></li>
+                <li><a class="dropdown-item" href="#">Option 2</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Option 3</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Forms -->
+    <div class="section">
+      <form>
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control" placeholder="ejemplo@email.com">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Contraseña</label>
+          <input type="password" class="form-control" placeholder="••••••">
+        </div>
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="checkbox" id="check1">
+          <label class="form-check-label" for="check1">Recordarme</label>
+        </div>
+        <button class="btn btn-primary w-100">Iniciar Sesión</button>
+      </form>
+    </div>
+
+    <!-- Cards -->
+    <div class="section row g-4 mt-1 mb-2">
+      <div class="col-md-4">
+        <div class="card shadow">
+          <div class="card-body">
+            <h5 class="card-title">Card Title</h5>
+            <p class="card-text">Un texto simple para ver cómo se ve una card.</p>
+            <a href="#" class="btn btn-primary">Acción</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Alerts -->
+    <div class="section">
+      <div class="alert alert-primary">Alerta primaria</div>
+      <div class="alert alert-success">Operación exitosa</div>
+      <div class="alert alert-danger">Error grave</div>
+    </div>
+
+    <!-- Badges -->
+    <div class="section">
+      <h5>Notificaciones <span class="badge bg-danger">3</span></h5>
+    </div>
+
+    <!-- Accordion -->
+    <div class="section mb-2 mt-2">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+              Sección 1
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+              Contenido expandible.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="section mb-2 mt-2">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Galería</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Explorar</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Perfil</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Modal trigger -->
+    <div class="section text-center mb-2 mt-2">
+      <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modalEjemplo">
+        Abrir Modal
+      </button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalEjemplo" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal Bootstrap</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            Esto es un modal simple.
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button class="btn btn-primary">Guardar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
