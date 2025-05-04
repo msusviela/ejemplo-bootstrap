@@ -94,12 +94,13 @@ Opcional:
 **8.** Agregar un botón secundario que presente la opción de Cancelar
 
 **9.** Seleccionar un ícono de la [librería de íconos de Boostrap](https://icons.getbootstrap.com/icons/) y agregarselo al botón de enviar.
+**IMPORTANTE:** Es necesario haber agregado la configuración para íconos previamente (revisar paso 1).
+
 
 **Card:**
 
 **10.** Envolver el formulario en una [Card](https://getbootstrap.com/docs/5.3/components/card/) y ajustar el padding y los márgenes a gusto.
 
-**IMPORTANTE:** Es necesario haber agregado la configuración para íconos previamente (revisar paso 1).
 
 
   
