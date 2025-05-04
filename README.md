@@ -64,15 +64,22 @@ Incluir los siguientes campos:
 > 💡 Los siguientes pasos deben ser realizados utilizando componentes de Boostrap.
 
 **Containers:**
+
 **1.** Agregar un [Container](https://getbootstrap.com/docs/5.0/layout/containers/) que envuelva al formulario. 
 
 **Espaciados:**
+
 **2.** Agregar [espaciado](https://getbootstrap.com/docs/5.0/utilities/spacing/) entre el título y el formulario
     *Sugerencia*: Agregar las clases de margin, como por ejemplo mt-5 y mb-4 al título del formulario
+    
 **Formularios:**
+
 **3.** Agregar la clase form-label y la clase form-control a las labels y los inputs del formulario. Agregar la clase form-group. [Formularios](https://getbootstrap.com/docs/4.0/components/forms/)
+
 **4.** Reemplazar los <br> por spacings donde sea necesario. Ajustar espaciados con las clases mt y mb.
+
 **5.** Agregar dos RadioButtons (botones de opción) para que el usuario pueda seleccionar si es alumno o docente.
+
 **6.** Agregar un checkbox para verificar si el usuario acepta los términos y condiciones.
 
 Opcional:
@@ -81,17 +88,20 @@ Opcional:
 [Floating labels](https://getbootstrap.com/docs/5.0/forms/floating-labels/)
  
 **Botones:**
+
 **7.** Cambiar el botón por un botón de tipo **primario**
+
 **8.** Agregar un botón secundario que presente la opción de Cancelar
+
 **9.** Seleccionar un ícono de la [librería de íconos de Boostrap](https://icons.getbootstrap.com/icons/) y agregarselo al botón de enviar.
 
 **Card:**
+
 **10.** Envolver el formulario en una [Card](https://getbootstrap.com/docs/5.3/components/card/) y ajustar el padding y los márgenes a gusto.
 
 **IMPORTANTE:** Es necesario haber agregado la configuración para íconos previamente (revisar paso 1).
 
-**Sobreescribiendo estilos:**
-- Cambiar el color primario y secundario.
+
   
 **Responsive y accesibilidad:**
 - Comprobar que el sitio obtenido es Responsive.
