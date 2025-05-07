@@ -2,9 +2,9 @@
 
 Este ejemplo consta de 4 archivos:
 
-1. Readme.md, en donde se encuentra la consigna.
-2. Index.html, en donde se encuentra un archivo con la estructura básica de un html sobre el cuál se podrá trabajar sobre la consigna.
-3. solucion.html, con una posible solución.
+1. `Readme.md`, en donde se encuentra la consigna.
+2. `Index.html`, en donde se encuentra un archivo con la estructura básica de un html sobre el cuál se podrá trabajar sobre la consigna.
+3. `solucion.html`, con una posible solución.
 4. `boostrap_gallery_app.html`, un archivo con ejemplos de componentes de Boostrap (independiente de este ejemplo)
 
 ## Requerimientos previos:
@@ -13,7 +13,7 @@ Este ejemplo consta de 4 archivos:
 ## Pasos:
 
 ### 1. Configuración Bootstrap:
-Bootstrap es un framework de CSS que te permite crear diseños modernos y responsivos rápidamente sin escribir mucho código.
+Bootstrap es un framework de CSS que permite crear diseños modernos y responsivos rápidamente sin escribir mucho código.
 
 **1.** Para enlazar el archivo CSS de Bootstrap, sin necesidad de instalar nada, copiar y pegar el siguiente fragmento de código en el head de nuestro `index.html`. Si hay otras hojas de estilo, se debera hacer previo a la declaración de estas:
 
