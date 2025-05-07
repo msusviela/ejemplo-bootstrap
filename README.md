@@ -101,8 +101,8 @@ Opcional:
 
 **10.** Envolver el formulario en una [Card](https://getbootstrap.com/docs/5.3/components/card/) y ajustar el padding y los márgenes a gusto.
 
-
-
+**Colores**
+- Cambiar el color de los componentes a través de un archivo `styles.css`. 
   
 **Responsive y accesibilidad:**
 - Comprobar que el sitio obtenido es Responsive.
