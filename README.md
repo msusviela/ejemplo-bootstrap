@@ -76,22 +76,25 @@ Incluir los siguientes campos:
 
 **3.** Agregar la clase form-label y la clase form-control a las labels y los inputs del formulario. Agregar la clase form-group. [Formularios](https://getbootstrap.com/docs/4.0/components/forms/)
 
-**4.** Reemplazar los <br> por spacings donde sea necesario. Ajustar espaciados con las clases mt y mb.
+**4.** Reemplazar las etiquetas `<br>` por spacings donde sea necesario. Ajustar espaciados con las clases mt y mb.
 
-**5.** Agregar dos RadioButtons (botones de opción) para que el usuario pueda seleccionar si es alumno o docente.
+**5.** Agregar dos RadioButtons (botones de opción) para que el usuario pueda seleccionar si es alumno o docente. [Radios y checkboxes](https://getbootstrap.com/docs/5.0/forms/checks-radios/)
 
-**6.** Agregar un checkbox para verificar si el usuario acepta los términos y condiciones.
+**6.** Agregar un checkbox para verificar si el usuario acepta los términos y condiciones. [Radios y checkboxes](https://getbootstrap.com/docs/5.0/forms/checks-radios/)
 
 Opcional:
 - Cambiar los inputs a alguna de las siguientes opciones:
+- 
 [Input group](https://getbootstrap.com/docs/4.0/components/input-group/)
+
 [Floating labels](https://getbootstrap.com/docs/5.0/forms/floating-labels/)
+
  
 **Botones:**
 
-**7.** Cambiar el botón por un botón de tipo **primario**
+**7.** Cambiar el botón provisto en el HTML por un [botón](https://getbootstrap.com/docs/4.0/components/buttons/) de tipo **primario**.
 
-**8.** Agregar un botón secundario que presente la opción de Cancelar
+**8.** Agregar un botón secundario que presente la opción de Cancelar.
 
 **9.** Seleccionar un ícono de la [librería de íconos de Boostrap](https://icons.getbootstrap.com/icons/) y agregarselo al botón de enviar.
 **IMPORTANTE:** Es necesario haber agregado la configuración para íconos previamente (revisar paso 1).
@@ -111,5 +114,7 @@ Opcional:
 > En el archivo `solucion.html` se encuentra una posible solución a este ejemplo
 
 ## Recursos:
+
 - [Repaso HTML](https://www.w3schools.com/html/html_intro.asp)
+ 
 - [Documentación Boostrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
