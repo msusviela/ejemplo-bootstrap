@@ -84,7 +84,7 @@ Incluir los siguientes campos:
 
 Opcional:
 - Cambiar los inputs a alguna de las siguientes opciones:
-- 
+
 [Input group](https://getbootstrap.com/docs/4.0/components/input-group/)
 
 [Floating labels](https://getbootstrap.com/docs/5.0/forms/floating-labels/)
