@@ -47,7 +47,7 @@ Incluir los siguientes campos:
   <input type="text" id="nombre" name="nombre"><br><br>
 
   <label for="email">Correo electrónico:</label><br>
-  <input type="email" id="email" name="email"><br><br>
+  <input id="email" name="email"><br><br>
 
   <label for="mensaje">Mensaje:</label><br>
   <textarea id="mensaje" name="mensaje"></textarea><br><br>
