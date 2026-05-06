@@ -12,7 +12,17 @@ Este ejemplo consta de 4 archivos:
  
 ## Pasos:
 
-### 1. Configuración Bootstrap:
+### 1. HTML y Accesibilidad:
+
+Utilizando el formulario ya existente en `index.html`:
+
+1. Realizar un análisis de accesibilidad con [WAVE](https://wave.webaim.org/) 
+
+2. Manejo de errores (Desde HTML):
+- Validar que el campo de mail tenga formato de mail (pista: type)
+- Validar que se ingresó el nombre y el mail al momento de enviar el formulario (pista: required).
+
+### 2. Configuración Bootstrap:
 Bootstrap es un framework de CSS que permite crear diseños modernos y responsivos rápidamente sin escribir mucho código.
 
 **1.** Para enlazar el archivo CSS de Bootstrap, sin necesidad de instalar nada, copiar y pegar el siguiente fragmento de código en el head de nuestro `index.html`. Si hay otras hojas de estilo, se debera hacer previo a la declaración de estas:
@@ -29,16 +39,6 @@ Opcional: Si se desea habilitar íconos, debajo de dónde se agregó la linea de
 ```
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 ```
-
-### 2. HTML y Accesibilidad:
-
-Utilizando el formulario ya existente en `index.html`:
-
-1. Realizar un análisis de accesibilidad con [WAVE](https://wave.webaim.org/) 
-
-2. Manejo de errores (Desde HTML):
-- Validar que el campo de mail tenga formato de mail (pista: type)
-- Validar que se ingresó el nombre y el mail al momento de enviar el formulario (pista: required).
 
 ### 3. Boostrap:
 > 💡 Los siguientes pasos deben ser realizados utilizando componentes de Boostrap.
