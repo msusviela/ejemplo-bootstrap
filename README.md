@@ -1,4 +1,4 @@
-# Ejemplo HTML + Bootstrap 🖥️
+# Ejemplo Accesibilidad + Bootstrap 🖥️
 
 Este ejemplo consta de 4 archivos:
 
@@ -30,35 +30,15 @@ Opcional: Si se desea habilitar íconos, debajo de dónde se agregó la linea de
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 ```
 
-### 2. HTML:
+### 2. HTML y Accesibilidad:
 
-**1.** Crear un formulario básico en HTML.
-Incluir los siguientes campos:
-- Nombre (input de texto)
-- Correo electrónico (input de tipo email)
-- Mensaje (textarea)
-- Botón de envío
-  
-```
-<h1>Formulario de Contacto</h1>
+Utilizando el formulario ya existente en `index.html`:
 
-<form>
-  <label for="nombre">Nombre:</label><br>
-  <input type="text" id="nombre" name="nombre"><br><br>
-
-  <label for="email">Correo electrónico:</label><br>
-  <input id="email" name="email"><br><br>
-
-  <label for="mensaje">Mensaje:</label><br>
-  <textarea id="mensaje" name="mensaje"></textarea><br><br>
-
-  <button type="submit">Enviar</button>
-</form>
-```
+1. Realizar un análisis de accesibilidad con [WAVE](https://wave.webaim.org/) 
 
 2. Manejo de errores (Desde HTML):
-- Validar que el campo de mail tenga formato de mail (pista: [type](https://www.w3schools.com/html/html_form_input_types.asp))
-- Validar que se ingresó el nombre y el mail al momento de enviar el formulario (pista: requiered).
+- Validar que el campo de mail tenga formato de mail (pista: type)
+- Validar que se ingresó el nombre y el mail al momento de enviar el formulario (pista: required).
 
 ### 3. Boostrap:
 > 💡 Los siguientes pasos deben ser realizados utilizando componentes de Boostrap.
@@ -118,3 +98,6 @@ Opcional:
 - [Repaso HTML](https://www.w3schools.com/html/html_intro.asp)
  
 - [Documentación Boostrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+
+- [WAVE](https://wave.webaim.org/) 
+
