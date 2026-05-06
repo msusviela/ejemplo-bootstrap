@@ -2,7 +2,7 @@
     --primary-color: #5500ff;
     --primary-color-hover: #2c007d;
     --secondary-color: #3e3535;
-    --background-color: #f2f2f2;
+    --background-color: #6c6969;
 }
 
 body {
@@ -39,4 +39,6 @@ body {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
 }
+
+
 
