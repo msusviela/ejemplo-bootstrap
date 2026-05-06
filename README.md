@@ -57,7 +57,7 @@ Incluir los siguientes campos:
 ```
 
 2. Manejo de errores (Desde HTML):
-- Validar que el campo de mail tenga formato de mail (pista: type)
+- Validar que el campo de mail tenga formato de mail (pista: [type](https://www.w3schools.com/html/html_form_input_types.asp))
 - Validar que se ingresó el nombre y el mail al momento de enviar el formulario (pista: requiered).
 
 ### 3. Boostrap:
